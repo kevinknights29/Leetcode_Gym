@@ -13,3 +13,5 @@ Source: [*Cracking the Coding Interview 6th Ed.* by Gale Laakman McDowell](https
 ### Arrays and Hashing
 
 - [X] [217. Contains Duplicate](./array_and_hashing/217_contains_duplicates/problem.md)
+
+- [X] [242. Valid Anagram](./array_and_hashing/242_valid_anagram/problem.md)
