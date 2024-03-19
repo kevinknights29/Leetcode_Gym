@@ -1,30 +1,15 @@
+from collections import defaultdict
+
+
 class Solution:
     def groupAnagrams(self, strs: list[str]) -> list[list[str]]:
-        results = []
-        anagrams = set()
-        for i in range(len(strs)):
-            if strs[i] in anagrams:
-                continue
-            run = [strs[i]]
-            for j in range(i + 1, len(strs)):
-                if len(strs[i]) != len(strs[j]):
-                    continue
-                hashmap_i = {}
-                hashmap_j = {}
-                for k in range(len(strs[i])):
-                    hashmap_i[strs[i][k]] = hashmap_i.get(strs[i][k], 0) + 1
-                    hashmap_j[strs[j][k]] = hashmap_j.get(strs[j][k], 0) + 1
-                match = True
-                for char in hashmap_i:
-                    if hashmap_i[char] != hashmap_j.get(char, 0):
-                        match = False
-                        break
-                if match:
-                    run.append(strs[j])
-                    anagrams.add(strs[i])
-                    anagrams.add(strs[j])
-            results.append(run)
-        return results
+        anagrams = defaultdict(list)
+        for s in strs:
+            count = [0] * 26
+            for c in s:
+                count[ord(c) - ord("a")] += 1
+            anagrams[tuple(count)].append(s)
+        return list(anagrams.values())
 
 
 # Brute Force:
@@ -33,9 +18,14 @@ class Solution:
 #       then compare the counts for each char, if they match for all char is an anagram.
 # - Track anagrams found in an array and later instert it to the result array (return).
 # - Track anagrams found in a set, and skip those values.
-# T: O(n^3) | S: O(n^2)
+# T: O(n^2 * k) | S: O(n * k)
 
 # Optimization:
+# - Create a hashmap to count the characters in each value in strs.
+# - For each value in strs, create an array to store the count for each character from a-z.
+# - Use the array as a key to store the values in a hashmap.
+# - Return the values in the hashmap.
+# T: O(n * k) | S: O(n * k)
 
 if __name__ == "__main__":
     # Test Cases
