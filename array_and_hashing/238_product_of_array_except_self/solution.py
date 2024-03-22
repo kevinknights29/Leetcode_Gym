@@ -1,25 +1,17 @@
 class Solution:
     def productExceptSelf(self, nums: list[int]) -> list[int]:
-        output = []
-        count_0 = 0
-        multiplication = 1
+        output = [1] * len(nums)
 
-        for num in nums:
-            if num == 0:
-                count_0 += 1
-            else:
-                multiplication *= num
-            if count_0 > 1:
-                return [0] * len(nums)
+        # prefix calculation
+        for i in range(1, len(nums)):
+            output[i] = nums[i - 1] * output[i - 1]
 
-        for num in nums:
-            if count_0 > 0:
-                if num == 0:
-                    output.append(multiplication)
-                else:
-                    output.append(0)
-            else:
-                output.append(multiplication // num)
+        # postfix calculation
+        postfix = nums[-1]
+        for i in range(len(nums) - 2, -1, -1):
+            output[i] *= postfix
+            postfix *= nums[i]
+
         return output
 
 
@@ -32,17 +24,13 @@ class Solution:
 # T: O(n^2) | S: O(n) -> O(1) hence the output array does not count as extra space for space complexity analysis.
 
 # Optimized solution:
-# - Iterate over the array
-# - Compute the multiplication of all values of the array (starting at 1, mult *= num[j])
-# - If there is only one 0 present:
-#   - ignore it, this will be our non-zero result.
-#   - set exist_0 to True.
-# - If there is more than one 0:
-#   - return [0] * len(nums)
-# - Iterate over the array (again - not nested)
-# - If exist_0 is not True:
-#   - Divide current value from the multiplied total and append/insert to output array
-# - Else, return 0 for every value that is not the 0 and append the multiplied total for 0.
+# - Initialize the output array with 1s ensuring it has same size as nums.
+# - Iterate over the nums array skipping the first element.
+# - Compute the multiplication of the prefix for the current value and store it in output.
+# - Initialize a variable postfix and set it to the last element of nums
+# - Iterate over the nums array in reverse order skipping the first element (i=len(n)-1).
+# - Compute the multiplication of the postfix and prefix for the current value and store it in output.
+# - Increase postfix by multipliying it with the current value (element i)
 # T: O(n) | S: O(1)
 
 if __name__ == "__main__":
