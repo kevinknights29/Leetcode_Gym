@@ -12,11 +12,19 @@ Source: [*Cracking the Coding Interview 6th Ed.* by Gale Laakman McDowell](https
 
 ### Arrays and Hashing
 
+- [X] [1. Two Sum](./array_and_hashing/1_two_sum/problem.md)
+
+- [X] [36. Valid Sudoku](./array_and_hashing/36_valid_sudoku/problem.md)
+
+- [X] [49. Group Anagrams](./array_and_hashing/49_group_anagrams/problem.md)
+
 - [X] [217. Contains Duplicate](./array_and_hashing/217_contains_duplicates/problem.md)
+
+- [X] [238. Product of Array Except Self](./array_and_hashing/238_product_of_array_except_self/problem.md)
 
 - [X] [242. Valid Anagram](./array_and_hashing/242_valid_anagram/problem.md)
 
-- [X] [1. Two Sum](./array_and_hashing/1_two_sum/problem.md)
+- [X] [347. Top K Frequent Elements](./array_and_hashing/347_top_k_frequent_elements/problem.md)
 
 ### Two Pointers
 
