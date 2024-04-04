@@ -49,6 +49,6 @@ Output: [0,1]
 
 **Follow-up**: Can you come up with an algorithm that is less than `O(n2)` time complexity?
 
-## Solutions
+## Solution
 
 [![Python](https://img.shields.io/badge/-Python-black?style=for-the-badge&logo=python)](./solution.py)
