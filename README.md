@@ -10,7 +10,7 @@ Source: [*Cracking the Coding Interview 6th Ed.* by Gale Laakman McDowell](https
 
 ## Solved
 
-### Arrays and Hashing
+### Arrays and Hashing [9]
 
 - [X] [1. Two Sum](./array_and_hashing/1_two_sum/problem.md)
 
@@ -30,7 +30,7 @@ Source: [*Cracking the Coding Interview 6th Ed.* by Gale Laakman McDowell](https
 
 - [X] [347. Top K Frequent Elements](./array_and_hashing/347_top_k_frequent_elements/problem.md)
 
-### Two Pointers
+### Two Pointers [3]
 
 - [X] [11. Container With Most Water](./two_pointers/11_container_with_most_water/problem.md)
 
