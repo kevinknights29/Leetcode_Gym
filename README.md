@@ -33,3 +33,7 @@ Source: [*Cracking the Coding Interview 6th Ed.* by Gale Laakman McDowell](https
 ### Two Pointers
 
 - [X] [11. Container With Most Water](./two_pointers/11_container_with_most_water/problem.md)
+
+- [X] [125. Valid Palindrome](./two_pointers/125_valid_palindrome/problem.md)
+
+- [X] [167. Two Sum II - Input Array Is Sorted](./two_pointers/167_two_sum_II_input_array_is_sorted/problem.md)
