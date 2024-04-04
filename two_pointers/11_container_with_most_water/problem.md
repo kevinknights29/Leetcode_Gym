@@ -38,6 +38,6 @@ Output: 1
 `2 <= n <= 105`
 `0 <= height[i] <= 10^4`
 
-## Solutions
+## Solution
 
 [![Python](https://img.shields.io/badge/-Python-black?style=for-the-badge&logo=python)](./solution.py)
