@@ -6,18 +6,18 @@ class Solution:
 
         # clean s
         s_clean = ""
-        for l in s:
-            if l.isalnum():
-                s_clean += l.lower()
+        for letter in s:
+            if letter.isalnum():
+                s_clean += letter.lower()
 
         # check palindrome with two pointers
-        l = 0
-        r = len(s_clean) - 1
-        while r > l:
-            if s_clean[l] != s_clean[r]:
+        L = 0
+        R = len(s_clean) - 1
+        while R > L:
+            if s_clean[L] != s_clean[R]:
                 return False
-            l += 1
-            r -= 1
+            L += 1
+            R -= 1
         return True
 
 
