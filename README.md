@@ -30,9 +30,11 @@ Source: [*Cracking the Coding Interview 6th Ed.* by Gale Laakman McDowell](https
 
 - [X] [347. Top K Frequent Elements](./array_and_hashing/347_top_k_frequent_elements/problem.md)
 
-### Two Pointers [3]
+### Two Pointers [4]
 
 - [X] [11. Container With Most Water](./two_pointers/11_container_with_most_water/problem.md)
+
+- [X] [15. 3Sum](./two_pointers/15_3sum/problem.md)
 
 - [X] [125. Valid Palindrome](./two_pointers/125_valid_palindrome/problem.md)
 
