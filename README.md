@@ -18,11 +18,15 @@ Source: [*Cracking the Coding Interview 6th Ed.* by Gale Laakman McDowell](https
 
 - [X] [49. Group Anagrams](./array_and_hashing/49_group_anagrams/problem.md)
 
+- [X] [128. Longest Consecutive Sequence](./array_and_hashing/128_longest_consecutive_sequence/problem.md)
+
 - [X] [217. Contains Duplicate](./array_and_hashing/217_contains_duplicates/problem.md)
 
 - [X] [238. Product of Array Except Self](./array_and_hashing/238_product_of_array_except_self/problem.md)
 
 - [X] [242. Valid Anagram](./array_and_hashing/242_valid_anagram/problem.md)
+
+- [X] [271. Encode and Decode Strings](./array_and_hashing/271_encode_and_decode_strings/problem.md)
 
 - [X] [347. Top K Frequent Elements](./array_and_hashing/347_top_k_frequent_elements/problem.md)
 
