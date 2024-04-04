@@ -46,3 +46,7 @@ Explanation: The sum of -1 and 0 is -1. Therefore index1 = 1, index2 = 2. We ret
 - `numbers` is sorted in non-decreasing order.
 - `-1000 <= target <= 1000`
 - The tests are generated such that there is **exactly one solution**.
+
+## Solution
+
+[![Python](https://img.shields.io/badge/-Python-black?style=for-the-badge&logo=python)](./solution.py)

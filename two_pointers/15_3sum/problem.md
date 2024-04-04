@@ -44,3 +44,7 @@ Explanation: The only possible triplet sums up to 0.
 
 - `3 <= nums.length <= 3000`
 - `-10^5 <= nums[i] <= 10^5`
+
+## Solution
+
+[![Python](https://img.shields.io/badge/-Python-black?style=for-the-badge&logo=python)](./solution.py)
