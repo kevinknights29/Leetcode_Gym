@@ -42,8 +42,10 @@ Source: [*Cracking the Coding Interview 6th Ed.* by Gale Laakman McDowell](https
 
 - [X] [167. Two Sum II - Input Array Is Sorted](./two_pointers/167_two_sum_II_input_array_is_sorted/problem.md)
 
-### Stack [2]
+### Stack [3]
 
 - [X] [20. Valid Parentheses](./stack/20_valid_parentheses/problem.md)
+
+- [X] [150. Evaluate Reverse Polish Notation](./stack/150_evaluate_reverse_polish_notation/problem.md)
 
 - [X] [155. Min Stack](./stack/155_min_stack/problem.md)
