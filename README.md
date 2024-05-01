@@ -42,7 +42,7 @@ Source: [*Cracking the Coding Interview 6th Ed.* by Gale Laakman McDowell](https
 
 - [X] [167. Two Sum II - Input Array Is Sorted](./two_pointers/167_two_sum_II_input_array_is_sorted/problem.md)
 
-### Stack [5]
+### Stack [6]
 
 - [X] [20. Valid Parentheses](./stack/20_valid_parentheses/problem.md)
 
@@ -53,3 +53,5 @@ Source: [*Cracking the Coding Interview 6th Ed.* by Gale Laakman McDowell](https
 - [X] [155. Min Stack](./stack/155_min_stack/problem.md)
 
 - [X] [739. Daily Temperatures](./stack/739_daily_temperatures/problem.md)
+
+- [X] [853. Car Fleet](./stack/853_car_fleet/problem.md)
