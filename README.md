@@ -1,6 +1,6 @@
 # Leetcode_Gym
 
-This project contains the problems I solved from leetcode and its variants in multiple languages.
+This project contains the problems I solved from Leetcode and its variants in multiple languages.
 
 ## Framework to solve problems
 
