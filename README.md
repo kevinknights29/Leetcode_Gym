@@ -57,3 +57,7 @@ Source: [*Cracking the Coding Interview 6th Ed.* by Gale Laakman McDowell](https
 - [X] [739. Daily Temperatures](./stack/739_daily_temperatures/problem.md)
 
 - [X] [853. Car Fleet](./stack/853_car_fleet/problem.md)
+
+### Binary Search [1]
+
+- [X] [704. Binary Search](./binary_search/704_binary_search/problem.md)
