@@ -58,6 +58,8 @@ Source: [*Cracking the Coding Interview 6th Ed.* by Gale Laakman McDowell](https
 
 - [X] [853. Car Fleet](./stack/853_car_fleet/problem.md)
 
-### Binary Search [1]
+### Binary Search [2]
+
+- [X] [74. Search a 2D Matrix](./binary_search/74_search_a_2d_matrix/problem.md)
 
 - [X] [704. Binary Search](./binary_search/704_binary_search/problem.md)
