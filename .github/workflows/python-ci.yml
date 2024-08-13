@@ -21,7 +21,7 @@ jobs:
       - name: Ruff Check
         run: |
           uv pip install ruff
-          ruff check **/*.py --output-format=github .
+          ruff check --output-format=github .
       - name: Mypy Check
         run: |
           uv pip install mypy
