@@ -58,9 +58,11 @@ Source: [*Cracking the Coding Interview 6th Ed.* by Gale Laakman McDowell](https
 
 - [X] [853. Car Fleet](./stack/853_car_fleet/problem.md)
 
-### Binary Search [3]
+### Binary Search [4]
 
 - [X] [74. Search a 2D Matrix](./binary_search/74_search_a_2d_matrix/problem.md)
+
+- [X] [153. Find Minimum in Rotated Sorted Array](./binary_search/153_find_minimum_in_rotated_sorted_array/problem.md)
 
 - [X] [704. Binary Search](./binary_search/704_binary_search/problem.md)
 
