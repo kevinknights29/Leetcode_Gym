@@ -1,0 +1,67 @@
+name: Python CI Pipeline
+
+on: [push]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip --quiet
+          python -m pip install uv --quiet
+          uv venv
+          source .venv/bin/activate
+          echo PATH=$PATH >> $GITHUB_ENV
+      - name: Ruff Check
+        run: |
+          uv pip install ruff
+          ruff check **/*.py --output-format=github .
+      - name: Mypy Check
+        run: |
+          uv pip install mypy
+          mypy **/*.py --disable-error-code=import-untyped
+
+  format:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip --quiet
+          python -m pip install uv --quiet
+          uv venv
+          source .venv/bin/activate
+          echo PATH=$PATH >> $GITHUB_ENV
+          uv pip install pre-commit
+      - name: Pre-commit Update Hooks
+        run: |
+          pre-commit autoupdate
+      - name: Pre-commit Format
+        id: precommit
+        continue-on-error: true
+        run: |
+          pre-commit install
+          pre-commit run --show-diff-on-failure --color=always --all-files
+      - name: Check for changes
+        id: git-check
+        run: |
+          git diff --exit-code || echo "changes=true" >> $GITHUB_OUTPUT
+      - name: Commit and push changes
+        if: steps.git-check.outputs.changes == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add -A
+          git commit -m "style: applied automatic formatting changes"
+          git pull --rebase origin ${{ github.ref }}
+          git push origin HEAD:${{ github.ref }}
