@@ -31,11 +31,6 @@ if __name__ == "__main__":
     # Test Cases
     assert Solution().evalRPN(["2", "1", "+", "3", "*"]) == 9
     assert Solution().evalRPN(["4", "13", "5", "/", "+"]) == 6
-    assert (
-        Solution().evalRPN(
-            ["10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+"]
-        )
-        == 22
-    )
+    assert Solution().evalRPN(["10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+"]) == 22
 
     print("All passed")
