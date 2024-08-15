@@ -58,7 +58,9 @@ Source: [*Cracking the Coding Interview 6th Ed.* by Gale Laakman McDowell](https
 
 - [X] [853. Car Fleet](./stack/853_car_fleet/problem.md)
 
-### Binary Search [6]
+### Binary Search [7]
+
+- [X] [4. Median of Two Sorted Arrays](./binary_search/4_median_of_two_sorted_arrays/problem.md)
 
 - [X] [33. Search in Rotated Sorted Array](./binary_search/33_search_in_rotated_sorted_array/problem.md)
 
