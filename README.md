@@ -58,7 +58,7 @@ Source: [*Cracking the Coding Interview 6th Ed.* by Gale Laakman McDowell](https
 
 - [X] [853. Car Fleet](./stack/853_car_fleet/problem.md)
 
-### Binary Search [5]
+### Binary Search [6]
 
 - [X] [33. Search in Rotated Sorted Array](./binary_search/33_search_in_rotated_sorted_array/problem.md)
 
@@ -69,3 +69,5 @@ Source: [*Cracking the Coding Interview 6th Ed.* by Gale Laakman McDowell](https
 - [X] [704. Binary Search](./binary_search/704_binary_search/problem.md)
 
 - [X] [875. Koko Eating Bananas](./binary_search/875_koko_eating_bananas/description.md)
+
+- [X] [981. Time Based Key-Value Store](./binary_search/981_time_based_key_value_store/problem.md)
