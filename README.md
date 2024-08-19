@@ -74,7 +74,9 @@ Source: [*Cracking the Coding Interview 6th Ed.* by Gale Laakman McDowell](https
 
 - [X] [981. Time Based Key-Value Store](./binary_search/981_time_based_key_value_store/problem.md)
 
-### Sliding Window [1]
+### Sliding Window [2]
+
+- [X] [121. Best Time to Buy and Sell Stock](./sliding_window/121_best_time_to_buy_and_sell_stock/problem.md)
 
 - [X] [3258. Count Substrings That Satisfy K-Constraint I](./sliding_window/3258_count_substrings_that_satisfy_k-constraint_i/problem.md)
 
