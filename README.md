@@ -10,7 +10,7 @@ Source: [*Cracking the Coding Interview 6th Ed.* by Gale Laakman McDowell](https
 
 ## Solved
 
-### Arrays and Hashing [11]
+### Arrays and Hashing [12]
 
 - [X] [1. Two Sum](./array_and_hashing/1_two_sum/problem.md)
 
@@ -33,6 +33,8 @@ Source: [*Cracking the Coding Interview 6th Ed.* by Gale Laakman McDowell](https
 - [X] [3270. Find the Key of the Numbers](./array_and_hashing/3270_find_the_key_of_the_numbers/problem.md)
 
 - [X] [3271. Hash Divided String](./array_and_hashing/3271_hash_divided_string/problem.md)
+
+- [X] [3274. Check if Two Chessboard Squares Have the Same Color](./array_and_hashing/3274_check_if_two_chessboard_squares_have_the_same_color/problem.md)
 
 ### Two Pointers [5]
 
