@@ -10,7 +10,7 @@ Source: [*Cracking the Coding Interview 6th Ed.* by Gale Laakman McDowell](https
 
 ## Solved
 
-### Arrays and Hashing [10]
+### Arrays and Hashing [11]
 
 - [X] [1. Two Sum](./array_and_hashing/1_two_sum/problem.md)
 
@@ -31,6 +31,8 @@ Source: [*Cracking the Coding Interview 6th Ed.* by Gale Laakman McDowell](https
 - [X] [347. Top K Frequent Elements](./array_and_hashing/347_top_k_frequent_elements/problem.md)
 
 - [X] [3270. Find the Key of the Numbers](./array_and_hashing/3270_find_the_key_of_the_numbers/problem.md)
+
+- [X] [3271. Hash Divided String](./array_and_hashing/3271_hash_divided_string/problem.md)
 
 ### Two Pointers [5]
 
