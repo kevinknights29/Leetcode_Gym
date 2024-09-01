@@ -92,6 +92,8 @@ Source: [*Cracking the Coding Interview 6th Ed.* by Gale Laakman McDowell](https
 
 - [X] [3259. Maximum Energy Boost From Two Drinks](./dynamic_programming/3259_maximum_energy_boost_from_two_drinks/problem.md)
 
-### Heap [1]
+### Heap [2]
 
 - [X] [3264. Final Array State After K Multiplication Operations I](./heap/3264_final_array_state_after_k_multiplication_operations_I/problem.md)
+
+- [X] [3275. K-th Nearest Obstacle Queries](./heap/3275_k-th_nearest_obstacle_queries/problem.md)
