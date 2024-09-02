@@ -80,11 +80,13 @@ Source: [*Cracking the Coding Interview 6th Ed.* by Gale Laakman McDowell](https
 
 - [X] [981. Time Based Key-Value Store](./binary_search/981_time_based_key_value_store/problem.md)
 
-### Sliding Window [3]
+### Sliding Window [4]
 
 - [X] [3. Longest Substring Without Repeating Characters](./sliding_window/3_longest_substring_without_repeating_characters/problem.md)
 
 - [X] [121. Best Time to Buy and Sell Stock](./sliding_window/121_best_time_to_buy_and_sell_stock/problem.md)
+
+- [X] [424. Longest Repeating Character Replacement](./sliding_window/424_longest_repeating_character_replacement/problem.md)
 
 - [X] [3258. Count Substrings That Satisfy K-Constraint I](./sliding_window/3258_count_substrings_that_satisfy_k-constraint_i/problem.md)
 
