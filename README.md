@@ -66,7 +66,7 @@ Source: [*Cracking the Coding Interview 6th Ed.* by Gale Laakman McDowell](https
 
 - [X] [853. Car Fleet](./stack/853_car_fleet/problem.md)
 
-### Binary Search [7]
+### Binary Search [8]
 
 - [X] [4. Median of Two Sorted Arrays](./binary_search/4_median_of_two_sorted_arrays/problem.md)
 
@@ -81,6 +81,8 @@ Source: [*Cracking the Coding Interview 6th Ed.* by Gale Laakman McDowell](https
 - [X] [875. Koko Eating Bananas](./binary_search/875_koko_eating_bananas/description.md)
 
 - [X] [981. Time Based Key-Value Store](./binary_search/981_time_based_key_value_store/problem.md)
+
+- [X] [3281. Maximize Score of Numbers in Ranges](./binary_search/3281_maximize_score_of_numbers_in_ranges/problem.md)
 
 ### Sliding Window [4]
 
