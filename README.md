@@ -105,3 +105,7 @@ Source: [*Cracking the Coding Interview 6th Ed.* by Gale Laakman McDowell](https
 - [X] [3264. Final Array State After K Multiplication Operations I](./heap/3264_final_array_state_after_k_multiplication_operations_I/problem.md)
 
 - [X] [3275. K-th Nearest Obstacle Queries](./heap/3275_k-th_nearest_obstacle_queries/problem.md)
+
+### Trees [1]
+
+- [3286. Find a Safe Walk Through a Grid](./trees/3286_find_a_safe_walk_through_a_grid/problem.md)
