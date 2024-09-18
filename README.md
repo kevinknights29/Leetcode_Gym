@@ -38,7 +38,7 @@ Source: [*Cracking the Coding Interview 6th Ed.* by Gale Laakman McDowell](https
 
 - [X] [3280. Convert Date to Binary](./array_and_hashing/3280_convert_date_to_binary/problem.md)
 
-- [3289. The Two Sneaky Numbers of Digitville](./array_and_hashing/3289_the_two_sneaky_numbers_of_digitville/problem.md)
+- [X] [3289. The Two Sneaky Numbers of Digitville](./array_and_hashing/3289_the_two_sneaky_numbers_of_digitville/problem.md)
 
 ### Two Pointers [5]
 
@@ -101,6 +101,8 @@ Source: [*Cracking the Coding Interview 6th Ed.* by Gale Laakman McDowell](https
 ### Dynamic Programming [1]
 
 - [X] [3259. Maximum Energy Boost From Two Drinks](./dynamic_programming/3259_maximum_energy_boost_from_two_drinks/problem.md)
+
+- [X] [3290. Maximum Multiplication Score](./dynamic_programming/3290_maximum_multiplication_score/problem.md)
 
 ### Heap [2]
 
