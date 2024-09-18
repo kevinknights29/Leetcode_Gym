@@ -10,7 +10,7 @@ Source: [*Cracking the Coding Interview 6th Ed.* by Gale Laakman McDowell](https
 
 ## Solved
 
-### Arrays and Hashing [13]
+### Arrays and Hashing [14]
 
 - [X] [1. Two Sum](./array_and_hashing/1_two_sum/problem.md)
 
@@ -37,6 +37,8 @@ Source: [*Cracking the Coding Interview 6th Ed.* by Gale Laakman McDowell](https
 - [X] [3274. Check if Two Chessboard Squares Have the Same Color](./array_and_hashing/3274_check_if_two_chessboard_squares_have_the_same_color/problem.md)
 
 - [X] [3280. Convert Date to Binary](./array_and_hashing/3280_convert_date_to_binary/problem.md)
+
+- [3289. The Two Sneaky Numbers of Digitville](./array_and_hashing/3289_the_two_sneaky_numbers_of_digitville/problem.md)
 
 ### Two Pointers [5]
 
