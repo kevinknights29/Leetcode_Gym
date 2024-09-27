@@ -47,7 +47,8 @@ if __name__ == "__main__":
     # Test Cases
     assert Solution().findSafeWalk([[0, 1, 0, 0, 0], [0, 1, 0, 1, 0], [0, 0, 0, 1, 0]], 1)
     assert not Solution().findSafeWalk(
-        [[0, 1, 1, 0, 0, 0], [1, 0, 1, 0, 0, 0], [0, 1, 1, 1, 0, 1], [0, 0, 1, 0, 1, 0]], 3,
+        [[0, 1, 1, 0, 0, 0], [1, 0, 1, 0, 0, 0], [0, 1, 1, 1, 0, 1], [0, 0, 1, 0, 1, 0]],
+        3,
     )
 
     print("All passed")
