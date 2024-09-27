@@ -12,7 +12,7 @@ class Solution:
         queue = deque([(0, 0, health)])
 
         # Use a set to keep track of visited states
-        visited = set([(0, 0, health)])
+        visited = {(0, 0, health)}
 
         while queue:
             i, j, current_health = queue.popleft()
@@ -47,7 +47,7 @@ if __name__ == "__main__":
     # Test Cases
     assert Solution().findSafeWalk([[0, 1, 0, 0, 0], [0, 1, 0, 1, 0], [0, 0, 0, 1, 0]], 1)
     assert not Solution().findSafeWalk(
-        [[0, 1, 1, 0, 0, 0], [1, 0, 1, 0, 0, 0], [0, 1, 1, 1, 0, 1], [0, 0, 1, 0, 1, 0]], 3
+        [[0, 1, 1, 0, 0, 0], [1, 0, 1, 0, 0, 0], [0, 1, 1, 1, 0, 1], [0, 0, 1, 0, 1, 0]], 3,
     )
 
     print("All passed")
