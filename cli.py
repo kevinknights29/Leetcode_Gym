@@ -3,7 +3,8 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 import fire
-from gql import Client, gql
+from gql import Client
+from gql import gql
 from gql.transport.aiohttp import AIOHTTPTransport
 from markdownify import markdownify as md
 
@@ -58,7 +59,7 @@ def main(url: str, category: str):
                 title
             }
         }
-        """
+        """,
     )
 
     result = client.execute(
@@ -76,7 +77,7 @@ def main(url: str, category: str):
                 content
             }
         }
-        """
+        """,
     )
     result = client.execute(
         content_query,
@@ -101,8 +102,8 @@ def main(url: str, category: str):
                     f"{md(problem_content)}",
                     "## Solution\n",
                     "[![Python](https://img.shields.io/badge/-Python-black?style=for-the-badge&logo=python)](./solution.py)\n",
-                ]
-            )
+                ],
+            ),
         )
     problem_solution_file_path = os.path.join(problem_dir, "solution.py")
     Path(problem_solution_file_path).touch(exist_ok=True)
