@@ -2,12 +2,12 @@
 
 This project contains the problems I solved from Leetcode and its variants in multiple languages.
 
-## Overiew
+## Overview
 
 ```mermaid
-xychart-beta
+xychart-beta horizontal
     title "LeetCode Problems"
-    x-axis [A&H, 2P, Stack, BS, SW, DP, Heap, Trees]
+    x-axis "Category" [array_and_hashing, two_pointers, stack, binary_search, dynamic_programming, heap, trees]
     y-axis "Solved" 0 --> 17
     bar [16, 5, 8, 8, 4, 1, 2, 1]
 ```
