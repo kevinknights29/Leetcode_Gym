@@ -2,6 +2,16 @@
 
 This project contains the problems I solved from Leetcode and its variants in multiple languages.
 
+## Overiew
+
+```mermaid
+xychart-beta
+    title "LeetCode Problems"
+    x-axis [A&H, 2P, Stack, BS, SW, DP, Heap, Trees]
+    y-axis "Solved" 0 --> 17
+    bar [16, 5, 8, 8, 4, 1, 2, 1]
+```
+
 ## Framework to solve problems
 
 ![image](https://github.com/kevinknights29/Leetcode_Gym/assets/74464814/752b9d0d-ce05-441d-81ec-038a7d49bec2)
