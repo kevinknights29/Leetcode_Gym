@@ -10,9 +10,9 @@ You are also given an integer array `workerTimes` representing the work time of 
 
 The workers work **simultaneously** to **reduce** the height of the mountain. For worker `i`:
 
-- To decrease the mountain's height by `x`, it takes `workerTimes[i] + workerTimes[i] * 2 + ... + workerTimes[i] * x` seconds. For example:
-  - To reduce the height of the mountain by 1, it takes `workerTimes[i]` seconds.
-  - To reduce the height of the mountain by 2, it takes `workerTimes[i] + workerTimes[i] * 2` seconds, and so on.
+* To decrease the mountain's height by `x`, it takes `workerTimes[i] + workerTimes[i] * 2 + ... + workerTimes[i] * x` seconds. For example:
+  * To reduce the height of the mountain by 1, it takes `workerTimes[i]` seconds.
+  * To reduce the height of the mountain by 2, it takes `workerTimes[i] + workerTimes[i] * 2` seconds, and so on.
 
 Return an integer representing the **minimum** number of seconds required for the workers to make the height of the mountain 0\.
 
