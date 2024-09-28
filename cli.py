@@ -3,7 +3,8 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 import fire
-from gql import Client, gql
+from gql import Client
+from gql import gql
 from gql.transport.aiohttp import AIOHTTPTransport
 from markdownify import markdownify as md
 
