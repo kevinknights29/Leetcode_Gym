@@ -10,7 +10,7 @@ Source: [*Cracking the Coding Interview 6th Ed.* by Gale Laakman McDowell](https
 
 ## Solved
 
-### Arrays and Hashing [15]
+### Arrays and Hashing [16]
 
 - [X] [1. Two Sum](./array_and_hashing/1_two_sum/problem.md)
 
@@ -41,6 +41,8 @@ Source: [*Cracking the Coding Interview 6th Ed.* by Gale Laakman McDowell](https
 - [X] [3289. The Two Sneaky Numbers of Digitville](./array_and_hashing/3289_the_two_sneaky_numbers_of_digitville/problem.md)
 
 - [X] [3541. Report Spam Message](./array_and_hashing/3541_report_spam_message/description.md)
+
+- [X] [3606. Minimum Element After Replacement With Digit Sum](./array_and_hashing/3606_minimum_element_after_replacement_with_digit_sum/description.md)
 
 ### Two Pointers [5]
 
