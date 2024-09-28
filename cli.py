@@ -3,8 +3,7 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 import fire
-from gql import Client
-from gql import gql
+from gql import Client, gql
 from gql.transport.aiohttp import AIOHTTPTransport
 from markdownify import markdownify as md
 
@@ -33,15 +32,15 @@ from markdownify import markdownify as md
 # 7. Create a file called solution.py within the directory created.
 
 
-def main(url: str, category: str):
+def main(url: str):
     """_summary_
 
     Args:
         url (str): _description_
-        category (str): _description_
     """
 
-    # create folder for category if it doesn't exist
+    category = input("Please insert the category of the problem: ")
+
     current_dir = os.path.dirname(__file__)
     category_dir = os.path.join(current_dir, category)
     Path(category_dir).mkdir(exist_ok=True)
