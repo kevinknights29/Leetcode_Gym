@@ -9,7 +9,7 @@ xychart-beta horizontal
     title "LeetCode Problems"
     x-axis "Category" [array_and_hashing, two_pointers, stack, binary_search, dynamic_programming, heap, trees]
     y-axis "Solved" 0 --> 18
-    bar [17, 5, 8, 8, 4, 3, 2, 1]
+    bar [17, 5, 8, 8, 4, 3, 3, 1]
 ```
 
 ## Framework to solve problems
@@ -122,11 +122,13 @@ Source: [*Cracking the Coding Interview 6th Ed.* by Gale Laakman McDowell](https
 
 - [X] [3584. Find the Lexicographically Smallest Valid Sequence](./dynamic_programming/3584_find_the_lexicographically_smallest_valid_sequence/description.md)
 
-### Heap [2]
+### Heap [3]
 
 - [X] [3264. Final Array State After K Multiplication Operations I](./heap/3264_final_array_state_after_k_multiplication_operations_I/problem.md)
 
 - [X] [3275. K-th Nearest Obstacle Queries](./heap/3275_k-th_nearest_obstacle_queries/problem.md)
+
+- [X] [3496. Minimum Number of Seconds to Make Mountain Height Zero](./heap/3496_minimum_number_of_seconds_to_make_mountain_height_zero/description.md)
 
 ### Trees [1]
 
