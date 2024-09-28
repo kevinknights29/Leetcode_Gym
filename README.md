@@ -9,7 +9,7 @@ xychart-beta horizontal
     title "LeetCode Problems"
     x-axis "Category" [array_and_hashing, two_pointers, stack, binary_search, dynamic_programming, heap, trees]
     y-axis "Solved" 0 --> 18
-    bar [17, 5, 8, 8, 4, 1, 2, 1]
+    bar [17, 5, 8, 8, 4, 3, 2, 1]
 ```
 
 ## Framework to solve problems
@@ -114,11 +114,13 @@ Source: [*Cracking the Coding Interview 6th Ed.* by Gale Laakman McDowell](https
 
 - [X] [3258. Count Substrings That Satisfy K-Constraint I](./sliding_window/3258_count_substrings_that_satisfy_k-constraint_i/problem.md)
 
-### Dynamic Programming [1]
+### Dynamic Programming [3]
 
 - [X] [3259. Maximum Energy Boost From Two Drinks](./dynamic_programming/3259_maximum_energy_boost_from_two_drinks/problem.md)
 
 - [X] [3290. Maximum Multiplication Score](./dynamic_programming/3290_maximum_multiplication_score/problem.md)
+
+- [X] [3584. Find the Lexicographically Smallest Valid Sequence](./dynamic_programming/3584_find_the_lexicographically_smallest_valid_sequence/description.md)
 
 ### Heap [2]
 
