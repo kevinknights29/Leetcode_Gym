@@ -7,9 +7,9 @@ This project contains the problems I solved from Leetcode and its variants in mu
 ```mermaid
 xychart-beta horizontal
     title "LeetCode Problems"
-    x-axis "Category" [array_and_hashing, two_pointers, stack, binary_search, dynamic_programming, heap, trees]
+    x-axis "Category" [array_and_hashing, two_pointers, stack, binary_search, sliding_window, dynamic_programming, heap, trees]
     y-axis "Solved" 0 --> 18
-    bar [17, 5, 8, 8, 5, 3, 3, 1]
+    bar [17, 5, 8, 8, 6, 3, 3, 1]
 ```
 
 ## Framework to solve problems
@@ -104,7 +104,7 @@ Source: [*Cracking the Coding Interview 6th Ed.* by Gale Laakman McDowell](https
 
 - [X] [3281. Maximize Score of Numbers in Ranges](./binary_search/3281_maximize_score_of_numbers_in_ranges/problem.md)
 
-### Sliding Window [5]
+### Sliding Window [6]
 
 - [X] [3. Longest Substring Without Repeating Characters](./sliding_window/3_longest_substring_without_repeating_characters/problem.md)
 
@@ -115,6 +115,8 @@ Source: [*Cracking the Coding Interview 6th Ed.* by Gale Laakman McDowell](https
 - [X] [3258. Count Substrings That Satisfy K-Constraint I](./sliding_window/3258_count_substrings_that_satisfy_k-constraint_i/problem.md)
 
 - [X] [3573. Count Substrings That Can Be Rearranged to Contain a String I](./sliding_window/3573_count_substrings_that_can_be_rearranged_to_contain_a_string_i/description.md)
+
+- [X] [3570. Count of Substrings Containing Every Vowel and K Consonants I](./sliding_window/3570_count_of_substrings_containing_every_vowel_and_k_consonants_i/description.md)
 
 ### Dynamic Programming [3]
 
