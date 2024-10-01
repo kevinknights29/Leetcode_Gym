@@ -9,7 +9,7 @@ xychart-beta horizontal
     title "LeetCode Problems"
     x-axis "Category" [array_and_hashing, two_pointers, stack, binary_search, sliding_window, dynamic_programming, heap, trees]
     y-axis "Solved" 0 --> 18
-    bar [17, 5, 8, 8, 6, 3, 3, 1]
+    bar [17, 5, 8, 8, 7, 3, 3, 1]
 ```
 
 ## Framework to solve problems
@@ -104,7 +104,7 @@ Source: [*Cracking the Coding Interview 6th Ed.* by Gale Laakman McDowell](https
 
 - [X] [3281. Maximize Score of Numbers in Ranges](./binary_search/3281_maximize_score_of_numbers_in_ranges/problem.md)
 
-### Sliding Window [6]
+### Sliding Window [7]
 
 - [X] [3. Longest Substring Without Repeating Characters](./sliding_window/3_longest_substring_without_repeating_characters/problem.md)
 
@@ -117,6 +117,8 @@ Source: [*Cracking the Coding Interview 6th Ed.* by Gale Laakman McDowell](https
 - [X] [3573. Count Substrings That Can Be Rearranged to Contain a String I](./sliding_window/3573_count_substrings_that_can_be_rearranged_to_contain_a_string_i/description.md)
 
 - [X] [3570. Count of Substrings Containing Every Vowel and K Consonants I](./sliding_window/3570_count_of_substrings_containing_every_vowel_and_k_consonants_i/description.md)
+
+- [X] [567. Permutation in String](./sliding_window/567_permutation_in_string/description.md)
 
 ### Dynamic Programming [3]
 
