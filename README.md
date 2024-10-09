@@ -7,9 +7,9 @@ This project contains the problems I solved from Leetcode and its variants in mu
 ```mermaid
 xychart-beta horizontal
     title "LeetCode Problems"
-    x-axis "Category" [array_and_hashing, two_pointers, stack, binary_search, sliding_window, dynamic_programming, heap, trees]
+    x-axis "Category" [array_and_hashing, two_pointers, stack, binary_search, sliding_window, dynamic_programming, heap, trees, graphs]
     y-axis "Solved" 0 --> 18
-    bar [17, 5, 8, 8, 7, 3, 3, 1]
+    bar [17, 5, 8, 8, 7, 3, 3, 1, 1]
 ```
 
 ## Framework to solve problems
@@ -139,3 +139,7 @@ Source: [*Cracking the Coding Interview 6th Ed.* by Gale Laakman McDowell](https
 ### Trees [1]
 
 - [3286. Find a Safe Walk Through a Grid](./trees/3286_find_a_safe_walk_through_a_grid/problem.md)
+
+### Graphs [1]
+
+- [3561. Remove Methods From Project](./graphs/3561_remove_methods_from_project/description.md)\
