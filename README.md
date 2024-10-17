@@ -8,8 +8,8 @@ This project contains the problems I solved from Leetcode and its variants in mu
 xychart-beta horizontal
     title "LeetCode Problems"
     x-axis "Category" [array_and_hashing, two_pointers, stack, binary_search, sliding_window, dynamic_programming, heap, trees, graphs]
-    y-axis "Solved" 0 --> 18
-    bar [17, 5, 8, 8, 7, 3, 3, 1, 1]
+    y-axis "Solved" 0 --> 19
+    bar [18, 5, 8, 8, 7, 3, 3, 1, 1]
 ```
 
 ## Framework to solve problems
@@ -20,7 +20,7 @@ Source: [*Cracking the Coding Interview 6th Ed.* by Gale Laakman McDowell](https
 
 ## Solved
 
-### Arrays and Hashing [17]
+### Arrays and Hashing [18]
 
 - [X] [1. Two Sum](./array_and_hashing/1_two_sum/problem.md)
 
@@ -55,6 +55,8 @@ Source: [*Cracking the Coding Interview 6th Ed.* by Gale Laakman McDowell](https
 - [X] [3606. Minimum Element After Replacement With Digit Sum](./array_and_hashing/3606_minimum_element_after_replacement_with_digit_sum/description.md)
 
 - [X] [3510. Maximize the Total Height of Unique Towers](./array_and_hashing/3510_maximize_the_total_height_of_unique_towers/description.md)
+
+- [X] [3605. Construct the Minimum Bitwise Array I](./array_and_hashing/3605_construct_the_minimum_bitwise_array_i/description.md)
 
 ### Two Pointers [5]
 
