@@ -9,7 +9,7 @@ xychart-beta horizontal
     title "LeetCode Problems"
     x-axis "Category" [array_and_hashing, two_pointers, stack, binary_search, sliding_window, dynamic_programming, heap, trees, graphs]
     y-axis "Solved" 0 --> 19
-    bar [18, 5, 8, 8, 7, 3, 3, 1, 1]
+    bar [18, 5, 8, 9, 7, 3, 3, 1, 1]
 ```
 
 ## Framework to solve problems
@@ -88,7 +88,7 @@ Source: [*Cracking the Coding Interview 6th Ed.* by Gale Laakman McDowell](https
 
 - [X] [3282. Reach End of Array With Max Score](./stack/3282_reach_end_of_array_with_max_score/problem.md)
 
-### Binary Search [8]
+### Binary Search [9]
 
 - [X] [4. Median of Two Sorted Arrays](./binary_search/4_median_of_two_sorted_arrays/problem.md)
 
@@ -105,6 +105,8 @@ Source: [*Cracking the Coding Interview 6th Ed.* by Gale Laakman McDowell](https
 - [X] [981. Time Based Key-Value Store](./binary_search/981_time_based_key_value_store/problem.md)
 
 - [X] [3281. Maximize Score of Numbers in Ranges](./binary_search/3281_maximize_score_of_numbers_in_ranges/problem.md)
+
+- [X] [3611. Construct the Minimum Bitwise Array II](./binary_search/3611_construct_the_minimum_bitwise_array_ii/description.md)
 
 ### Sliding Window [7]
 
