@@ -9,7 +9,7 @@ xychart-beta horizontal
     title "LeetCode Problems"
     x-axis "Category" [array_and_hashing, two_pointers, stack, binary_search, sliding_window, dynamic_programming, heap, trees, graphs]
     y-axis "Solved" 0 --> 19
-    bar [18, 5, 8, 9, 7, 3, 3, 1, 1]
+    bar [18, 5, 8, 9, 7, 4, 3, 1, 1]
 ```
 
 ## Framework to solve problems
@@ -124,11 +124,13 @@ Source: [*Cracking the Coding Interview 6th Ed.* by Gale Laakman McDowell](https
 
 - [X] [567. Permutation in String](./sliding_window/567_permutation_in_string/description.md)
 
-### Dynamic Programming [3]
+### Dynamic Programming [4]
 
 - [X] [3259. Maximum Energy Boost From Two Drinks](./dynamic_programming/3259_maximum_energy_boost_from_two_drinks/problem.md)
 
 - [X] [3290. Maximum Multiplication Score](./dynamic_programming/3290_maximum_multiplication_score/problem.md)
+
+- [X] [3487. Find Maximum Removals From Source String](./dynamic_programming/3487_find_maximum_removals_from_source_string/description.md)
 
 - [X] [3584. Find the Lexicographically Smallest Valid Sequence](./dynamic_programming/3584_find_the_lexicographically_smallest_valid_sequence/description.md)
 
